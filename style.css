@@ -1,1 +1,63 @@
 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-width: 100vh;
+    min-height: 100vh;
+    background: linear-gradient(240deg, rgb(156,139,127),rgb(173,176,167),rgb(126,129,108));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxy{
+    min-height: 35vh;
+    min-width: 70vh;
+    border-radius: 26px;
+    background: #afafaf;
+    box-shadow:  -5px 5px 28px #797979,
+                5px -5px 28px #b1b0b0;
+}
+.flux{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 23%;
+}
+
+button{
+    background: transparent;
+    border: 0;
+}
+button{
+    border-radius: 26px;
+    background: #afafaf;
+    box-shadow: inset -5px 5px 13px #464646,
+                inset 5px -5px 13px #ffffff;
+    transform: scale(4);
+    
+}
+button:active{
+    background: #afafaf;
+    box-shadow: inset -5px 5px 100px #838383,
+                inset 5px -5px 100px #dbdbdb;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    
+}
+button:hover{
+    animation: colorchange 3s linear infinite;
+}
+i{
+    margin-top: 2px;
+}
+
+
+
+@keyframes disco {
+	to {filter: hue-rotate(360deg);}
+}
