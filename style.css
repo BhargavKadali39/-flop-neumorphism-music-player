@@ -58,6 +58,6 @@ i{
 
 
 
-@keyframes disco {
+@keyframes colorchange {
 	to {filter: hue-rotate(360deg);}
 }
